@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+.start {
+    display: flex;
+}
+
+.header {
+    background-color: red;
+}
