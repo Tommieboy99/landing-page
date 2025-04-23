@@ -6,15 +6,56 @@ body {
     flex-direction: column;
 }
 
+.under-info {
+    display: flex;
+    
+}
+.container-info h2 {
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+.info-box {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    border-color: #3882F6;
+}
+
+.info-grid {
+    height: 200px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 50px;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thor-author {
+    font-weight: 600;
+    display: flex;
+    margin-left: 600px;
+    margin-top: 0;
+}
+
 .thor-quote {
     color: #1f2937;
     font-size: 36px;
+    margin: 0;
 }
 
 .container-thor {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 350px;
     background-color: #e5e7eb;
 }
