@@ -6,6 +6,19 @@ body {
     flex-direction: column;
 }
 
+.thor-quote {
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.container-thor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: #e5e7eb;
+}
+
 .cta-title {
     font-size: 24px;
 }
