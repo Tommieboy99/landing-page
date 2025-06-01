@@ -7,70 +7,81 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-left">
-            <div class="logo">Mijn Website</div>
-            <div class="header-intro">
-                <h1>This website is <br>awesome!</h1>
-                <p>This website has some subtext that goes here under the <br> main title. It's a smaller font and the color is lower <br> contrast</p>
+    <header>
+        <nav>
+            <div id="logo">
+                <img src="images/file.png" alt="PSVfanlogo" class="logo-img">
             </div>
-            <button class="sign-up-intro">Sign up</button>
-        </div>
-        <div class="header-right">
-            <nav class="nav-right">
-                <a href="#">header link one</a>
-                <a href="#">header link two</a>
-                <a href="#">header link three</a>
-            </nav>
-            <div class="header-image">
-                <p>this is a placeholder for an image</p>
-            </div>
-        
-        </div>
-
+            <ul>
+                <li><a href="#matches">Matches</a></li>
+                <li><a href="#clubhistory">Club History</a></li>
+                <li><a href="#forum">Forum</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <div class="container-info">
-        <h2>Some random information.</h2>
-
-        <div class="info-grid">
-            <div class="info-item">
-                <div class="info-box"></div>
-                <p class="info-text">This is some subtext under an illustration or image</p>
+    <main>
+        <section id="about">
+            <div class="about-text">
+                <h1 class="about-heading">PSV Eindhoven - More Than a Club!</h1>
+                <p>
+                    Discover everything about PSV Eindhoven - from club history to the latest news, player stats, and upcoming fixtures.
+                    Whether you're a lifelong supporter or new to the club, this is your website for all things about PSV.
+                </p>
+                <a href="#signup" class="btn">Join Now</a>
             </div>
-            <div class="info-item">
-                <div class="info-box"></div>
-                <p class="info-text">Hallo piet, lul.</p>
+            <div class="about-image">
+                <img src="images/psvkampioen.jpg" alt="">
             </div>
-            <div class="info-item">
-                <div class="info-box"></div>
-                <p class="info-text">Hallo piet, lul</p>
+        </section>
+        <section id="information">
+            <h2>PSV EINDHOVEN LEGACY</h2>
+            <div id="information-container">
+                <div class="infobox">
+                    <img src="images/eredivisieChampion.svg" alt="">
+                    <h3 class="pricesTotal">26x Eredivisie Champion</h3>
+                    <p class="pricesYear">In 1928-29, 1934-35, 1950-51, 1962-63, 1974-75, 1975-76, 1977-78, 
+                        1985-86, 1986-87, 1987-88, 1988-89, 1990-91, 1991-92, 1996-97, 1999-2000, 
+                        2000-01, 2002-03, 2004-05, 2005-06, 2006-07, 2007-08, 2014-15, 2015-16, 2017-18, 2023-24, 2024-25.</p>
+                </div>
+                <div class="infobox">
+                    <img src="images/knvbBeker.png" alt="">
+                    <h3 class="pricesTotal">10x KNVB Trophy</h3>
+                    <p class="pricesYear">In 1949-50, 1973-74, 1975-76, 1987-88, 1988-89, 1989-90, 1995-96, 2004-05, 2011-12, 2021-22, 2022-23</p>
+                </div>
+                <div class="infobox">
+                    <img src="images/johanCruijffSchaal.png" alt="">
+                    <h3 class="pricesTotal">14x Johan Cruijff Trophy</h3>
+                    <p class="pricesYear">In 1992-93, 1996-97, 1997-98, 1998-99, 2000-01, 2001-02, 2003-04, 2008-09, 2012-13, 2015-16, 2016-17, 2021-22, 2022-23, 2023-24</p>
+                </div>
             </div>
-            <div class="info-item">
-                <div class="info-box"></div>
-                <p class="info-text">Hallo piet, lul. Ik hou niet van je dikke mokkel hoofd</p>     
+        </section> 
+        <section> 
+            <div class="container-thor">
+                <p class="thor-quote">
+                    "Founded in 1913 by Philips employees, PSV Eindhoven is more than just a football club — it's a symbol of determination, 
+                    loyalty, and pride. From European glory in 1988 to countless national titles, PSV stands for passion that runs through 
+                    generations of red-and-white hearts."
+                </p>
+                <p class="thor-author">
+                    -Tom, lifelong supporter
+                </p>
             </div>
-        </div>
-    </div>
-
-    <div class="container-thor">
-        <p class="thor-quote">This is an inspiring quote, or a testimonial from a <br> customer. Maybe it' s just filling up space, or maybe <br> people
-            will actually read it. Who knows? All I know <br> is that it looks nice</p>
-        <p class="thor-author"> -Thor, God of Thunder</p>
-    </div>
-
-    <div class="container">
-        <div class="blue-container">
-            <div class="text-container">
-                <p><strong class="cta-title">Call to action! It's time!</strong></p>
-                <p>Sign up for our product by clicking that button right over there!</p>
+        </section>
+        <section>
+            <div class="container">
+                <div class="blue-container">
+                    <div class="text-container">
+                        <p><strong class="cta-title">Join the red and white army today!</strong></p>
+                        <p>Stay updated with the latest PSV news, matches, and exclusive content by signing up now.</p>
+                    </div>
+                    <a href="#signup" class="sign-up">Join Now</a>
+                </div>
             </div>
-            <button class="sign-up">Sign up</button>
-        </div>
-    </div>
-
-    <footer class="footer">
-        <p>Copyright © The Odin Project</p>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>Copyright © Made by Tommyboy99</p>
     </footer>
 </body>
 </html>
